@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mehmet Kaplan | About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="site-title">
+        <h1>Mehmet Kaplan</h1>
+        <p>Data Scientist · Psychometrician</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">About</a></li>
+          <li><a href="scholarship.html">Scholarship</a></li>
+          <li><a href="professional-work.html">Professional Work</a></li>
+          <li><a href="teaching-mentorship.html">Teaching &amp; Mentorship</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="home-layout">
+      <div class="profile-image-wrapper">
+        <img src="assets/img/profile.jpg" alt="Photo of Mehmet Kaplan" class="profile-image" />
+      </div>
+      <div class="bio">
+        <h2>About</h2>
+        <p>
+          <!-- Replace this with your real bio -->
+          I am Mehmet Kaplan, a data scientist and psychometrician with experience in
+          both academia and industry. My work sits at the intersection of
+          measurement, statistics, and applied data science.
+        </p>
+        <p>
+          Previously, I worked as an assistant professor and completed a PhD in
+          psychometrics. In recent years, I have focused on data science and
+          business analytics roles, working with organizations to turn complex data
+          into useful decisions.
+        </p>
+        <p>
+          This site collects my scholarship, professional work, and teaching and
+          mentorship activities.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Mehmet Kaplan</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
