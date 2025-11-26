@@ -1,1 +1,0 @@
-# kaplanmehmet.github.io
